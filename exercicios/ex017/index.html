@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'Work Sans'  Arial, Helvetica, sans-serif;
+            /*
+            Medidas absolutas
+            cm, mm, in(polegada),px(pixel), pt(ponto), pc(paica)
+
+            Medidas relativas
+            em, ex, rem, vw, vh, %
+
+            Recomendado: px e em
+            */
+            font-size: 16px;
+            /*16px é o normal. 16PX = 1em*/
+            font-weight: bolder;
+            /*lighter normal bold bolder*/
+            font-style: italic;
+            text-decoration: underline;
+        
+        } 
+        h1 { font: italic bolder 2em 'Work Sans', sans-serif;
+        /*
+        font-family: 'Work Sans', sans-serif;
+        font-weight: bolder;
+        font-size: 2em;
+        font-style: italic;
+        shorthand font
+        -font-style ->font-weight -> font-size -> font-family
+        */
+        }
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+    <!--Safe combination de fontes-->
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, dignissimos perferendis. Alias earum autem facere neque odit hic omnis est quibusdam deleniti illum reiciendis quis cum, labore nesciunt asperiores impedit.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, incidunt rerum culpa quaerat voluptatem in quidem quo recusandae nesciunt! Velit quas natus corporis, itaque laboriosam repellat corrupti at quibusdam aspernatur!</p>
+    <h2>Subtitulo do exercicio</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum inventore, nihil laboriosam nulla quo, enim quasi quod voluptate eligendi amet unde harum aliquam. Ducimus sunt impedit consequuntur rerum obcaecati ad.</p>
+</body>
+</html>
